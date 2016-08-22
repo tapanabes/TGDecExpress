@@ -13,6 +13,8 @@ public class Utils extends BaseTest {
 	@FindBy(xpath="//[@id='contact']/span[2]")
 	WebElement contactsButton;
 	
+	//This is utility class
+	
 	public Utils(WebDriver driver){
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
