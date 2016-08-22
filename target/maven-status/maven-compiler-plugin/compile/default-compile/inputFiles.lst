@@ -1,0 +1,15 @@
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\utils\AutomationException.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\utils\BaseTest.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\utils\utils.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\utils\ApplicationClass.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\utils\ExcelDataProvider.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\fixtures\DataProviderCreateNewMember.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\utils\RunConfigurationReader.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\pages\CRMLoginPage.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\pages\CreateNewMemberPage.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\utils\ConfigurationDataProvider.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\beans\NewMembershipWorkflow.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\pages\HomePage.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\fixtures\DataProviderLogin.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\beans\MSCRMLogin.java
+D:\Projects\DecExpAutomation\src\main\java\com\decexp\pages\ContactsPage.java
