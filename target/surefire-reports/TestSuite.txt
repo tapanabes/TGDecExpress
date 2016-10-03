@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.667 sec - in TestSuite
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 3.351 sec <<< FAILURE! - in TestSuite
+createNewMember(com.decexp.tests.MemberTest)  Time elapsed: 0.05 sec  <<< FAILURE!
+com.decexp.utils.AutomationException: null
+	at com.decexp.pages.CRMLoginPage.loginAs(CRMLoginPage.java:26)
+	at com.decexp.tests.MemberTest.createNewMember(MemberTest.java:47)
+
+tearDown(com.decexp.tests.MemberTest)  Time elapsed: 0.06 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.decexp.tests.MemberTest.tearDown(MemberTest.java:66)
+

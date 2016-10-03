@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Decision Express Suite]">
+  <parameter name="browserName" value="firefox"/>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.decexp.tests.MemberTest">
+        <methods>
+          <include name="closeCurrentDriver"/>
+          <include name="beforeClass"/>
+          <include name="browserSetup"/>
+          <include name="createNewMember" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.decexp.tests.MemberTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Decision Express Suite] -->

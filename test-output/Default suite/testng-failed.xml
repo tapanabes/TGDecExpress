@@ -5,7 +5,9 @@
     <classes>
       <class name="com.decexp.tests.MemberTest">
         <methods>
+          <include name="createNewProspect" invocation-numbers="0"/>
           <include name="closeCurrentDriver"/>
+          <include name="beforeClass"/>
           <include name="browserSetup"/>
           <include name="createNewMember" invocation-numbers="0"/>
         </methods>

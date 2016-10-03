@@ -31,10 +31,43 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">1.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.decexp.tests.MemberTest</td><td><a href="#m1"><b>tearDown</b>  </a></td><td class="numi">1</td><td>1474982030258</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.decexp.tests.MemberTest</td><td><a href="#m2"><b>createNewMember</b>  ("This test case is used to create prospect")</a></td><td class="numi">1</td><td>1474982030218</td><td class="numi">30</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.decexp.tests.MemberTest</td><td><a href="#m3"><b>closeCurrentDriver</b>  </a></td><td class="numi">1</td><td>1474982030268</td><td class="numi">0</td></tr>
 </table>
 <h1>Test</h1>
+<h2 id="m1">com.decexp.tests.MemberTest:tearDown</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>[TestResult name=createNewMember status=FAILURE method=MemberTest.createNewMember(com.decexp.beans.AddMemberDetails)[pri:0, instance:com.decexp.tests.MemberTest@31506701] output={null}]</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>null</p>
+com.decexp.tests.MemberTest.tearDown(MemberTest.java:66)
+<br/>30 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.decexp.tests.MemberTest:createNewMember</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>AddMemberDetails [ForeName=Test_Prospect, SurName=2609_Autuser001, Initials=T, Title=Mr, Mobile=M123, Email=test@gmail.com, Gender=Male, PostCode=EX8 5AN, Country=United Kingdom, Branch=Channel Islands, TermsAndCondition=Decline, Product=null, PaymentMethod=null]</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<p>null</p>
+com.decexp.pages.CRMLoginPage.loginAs(CRMLoginPage.java:26)
+<br/>at com.decexp.tests.MemberTest.createNewMember(MemberTest.java:47)
+<br/>28 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.decexp.tests.MemberTest:closeCurrentDriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

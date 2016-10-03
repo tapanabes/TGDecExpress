@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Decision Express Suite]">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="com.decexp.utils.CustomReporter"/>
+  </listeners>
+  <test name="Login Test(failed)">
     <classes>
       <class name="com.decexp.tests.MemberTest">
         <methods>
+          <include name="createNewProspect" invocation-numbers="0"/>
           <include name="closeCurrentDriver"/>
+          <include name="beforeClass"/>
           <include name="browserSetup"/>
           <include name="createNewMember" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.decexp.tests.MemberTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Decision Express Suite] -->

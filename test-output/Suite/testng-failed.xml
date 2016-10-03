@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.decexp.tests.MemberTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
+          <include name="browserSetup"/>
+          <include name="createNewMember" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.decexp.tests.MemberTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

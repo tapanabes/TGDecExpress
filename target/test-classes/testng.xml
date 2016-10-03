@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Decision Express Suite" verbose="1" >
+<listeners>
+	<listener class-name="com.decexp.utils.CustomReporter"></listener>
+</listeners>
+ <parameter name="browserName" value="firefox" >
+ </parameter>
+ 
+ <test name="Login Test">
+	<classes>
+   		<class name="com.decexp.tests.MemberTest" /> 
+   		<!-- <class name="com.decexp.tests.OrdersTest" /> -->
+  		<!-- <class name="com.decexp.tests.contactsTest" /> -->
+  	</classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
